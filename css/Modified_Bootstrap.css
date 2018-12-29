@@ -1,0 +1,80 @@
+html
+{
+    overflow-x: hidden;
+}
+.fixed-top
+{
+    z-index: 3;
+}
+
+.bg-Mlight
+{
+    background-color: #c9c9c9;
+}
+.jumbotron
+{
+    height: 80vh;
+    width: 100vw;
+    text-align: center;
+    padding: 9em 0 0 0;   
+}
+.jumbotron-image
+{
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.5)),to(rgba(154, 211, 222, 0.5))),url(../Images/8d0df45d11175ed_5f1c2eb0_f2104ad5o.jpg);
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5),rgba(154, 211, 222, 0.5)),url(../Images/8d0df45d11175ed_5f1c2eb0_f2104ad5o.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.jumbotron-bg-white
+{
+    background-color: white;
+}
+.card-shadows
+{
+    -webkit-box-shadow: 1px 1px .5px grey;
+    box-shadow: 1px 1px .5px grey;
+}
+.about-center
+{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 2em;
+}
+.about-title-center
+{
+    text-align: center;
+}
+.form-center
+{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: left;
+    padding: 0 25%;
+}
+.cards-align
+{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-card
+{
+    width: 20em;
+    -ms-flex-item-align: center;
+    align-self: center;
+    background-size: cover;
+}
+.card-deck-wrapper
+{
+    margin: 4em 0;
+}
+.form-center p
+{
+    font-style: italic;
+    color: cornflowerblue;
+}
